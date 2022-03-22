@@ -72,6 +72,20 @@ img {
   clear: both;
 }
 
+@media screen {
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+}
+
+/* M-QUERY TABLET */
+
+@media  screen and ( max-width : 809px ) {
+  
+}
+
 /* M-QUERY MOBILE */
 
 @media screen and ( max-width: 419px ) {
@@ -79,20 +93,30 @@ img {
     background-color: #F2F2CD;
   }
 
+  #lezioni, #steps, #why{
+    padding: 5px;
+  }
+
   .row{
-    width: 100%;
+    width: 100vw;
     margin-top: 0;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
   width: 100%;
+  padding-top: 10px;
 }
 
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
   width: 100%;
+  padding-top: 10px;
+}
+
+img{
+  height:100px ;
 }
 
 }
