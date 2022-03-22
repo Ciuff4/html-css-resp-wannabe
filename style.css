@@ -72,33 +72,34 @@ img {
   clear: both;
 }
 
-@media screen {
-*{
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-}
-}
-
 /* M-QUERY TABLET */
 
 @media  screen and ( max-width : 809px ) {
-  
+  #lezioni, #why{
+    background-color: #F2F2CD;
+  }
+
+  .row{
+    width: 100%;
+  }
+
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
 
 /* M-QUERY MOBILE */
 
 @media screen and ( max-width: 419px ) {
-  #lezioni, #why{
-    background-color: #F2F2CD;
-  }
 
   #lezioni, #steps, #why{
     padding: 5px;
   }
 
   .row{
-    width: 100vw;
+    width: 100%;
     margin-top: 0;
   }
 
